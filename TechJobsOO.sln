@@ -1,7 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechJobsOO", "TechJobsOO\TechJobsOO.csproj", "{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechJobsTest", "TechJobsTest\TechJobsTest.csproj", "{545BF689-6852-4400-BD5E-05D4AB15A13F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +16,15 @@ Global
 		{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C76D48E1-4C5C-4DB4-89A2-DBACCF4CBE4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545BF689-6852-4400-BD5E-05D4AB15A13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545BF689-6852-4400-BD5E-05D4AB15A13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545BF689-6852-4400-BD5E-05D4AB15A13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545BF689-6852-4400-BD5E-05D4AB15A13F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3292B29-04EF-40FC-95B0-5E5437F112AA}
 	EndGlobalSection
 EndGlobal
