@@ -22,6 +22,8 @@ namespace TechJobsOO
 
 
 
+        // TODO: Generate Equals() and GetHashCode() methods.
+
         public Job(string name, Employer employerName, Location employerLocation, PositionType jobType, CoreCompetency jobCoreCompetency) : this()
         {
             Name = name;
@@ -42,9 +44,44 @@ namespace TechJobsOO
             return HashCode.Combine(Id);
         }
 
+        public override string ToString()
+        {
+            if (Name == "")
+            {
+                Name = "Data not available.";
+            };
+
+            if (EmployerName.Value == "")
+            {
+                EmployerName.Value = "Data not available.";
+            };
+
+            if (EmployerLocation.Value == "")
+            {
+                EmployerLocation.Value = "Data not available.";
+            };
+
+            if (JobType.Value == "")
+            {
+                JobType.Value = "Data not available.";
+            };
+
+            if (JobCoreCompetency.Value == "")
+            {
+                JobCoreCompetency.Value = "Data not available.";
+            };
+
+            string jobString = "\n ID: " + Id + "\n"+
+                "\n Name: " + Name + "\n" +
+                "\n Employer: " + EmployerName + "\n" +
+                "\n Location: " + EmployerLocation + "\n" +
+                "\n Position Type: " + JobType + "\n" +
+                "\n Core Compentency: " + JobCoreCompetency +"\n";
+            
+            return jobString;            
+        }
 
 
 
-        // TODO: Generate Equals() and GetHashCode() methods.
     }
 }
